@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+h1 {
+  font-weight: normal;
+  font-size: 140%;
+}
+table {
+  height: 100%;
+  width: 100%;
+}
+#blocklyArea {
+  /*height: 99%;*/
+  height: 720px;
+}
+
+.blocklyToolboxDiv{
+  background-color: #fff;
+  border-right: 1px solid #eee;
+  color: #2196F3;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.blocklyFlyoutBackground {
+    fill: #c1e2fc;
+    fill-opacity: 1;
+}
+
+.blocklyTreeSelected{
+  padding-left: 0px;
+  border-left: 8px solid rgb(92, 104, 166);
+  background-color: #2196F3 !important;
+}
